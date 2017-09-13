@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  p
+    textarea(id="autoText" name="text" style="width:900px;height: 300px;border: 1px solid #ccc;")
+  p
+    button(id="autoButton") 提交
+  h2 输出结果
+  p
+    textarea(id="autoOutput" name="output" style="width:900px;height: 300px;border: 1px solid #ccc;")
+  script(src="/webAutomation/javascripts/defineAuto.js")
